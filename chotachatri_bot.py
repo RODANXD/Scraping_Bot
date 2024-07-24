@@ -8,7 +8,7 @@ import time
 from datetime import datetime
 
 
-TOKEN = '7302240229:AAE2tPS8W7A4ZFF_zIUQeclHN1-MlJXbZuY'
+TOKEN = 'your bot token'
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text('what you want to in amazon type a keyword')
